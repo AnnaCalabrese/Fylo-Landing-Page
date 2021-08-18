@@ -1,0 +1,154 @@
+/***** GENERAL STYLES *****/ 
+* {
+    box-sizing: border-box;
+}
+:root{
+    --darkintro: hsl(217, 28%, 15%);
+    --darkbg: hsl(218, 28%, 13%);
+    --darkfooter: hsl(216, 53%, 9%);
+    --darktestimonial: hsl(219, 30%, 18%);
+    --cyan: hsl(176, 68%, 64%);
+    --blue: hsl(198, 60%, 50%);
+    --red: hsl(0, 100%, 63%);
+    --white: hsl(0, 7%, 75%);
+}
+body{
+    background-color: var(--darkintro);
+    font-size: 14px;
+    color:var(--white);
+    font-family: Open Sans, sans-serif;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+h1, h2, h3, h4 {
+    font-family: Raleway, sans-serif;
+    font-weight:700;
+}
+
+
+/** HEADER **/
+
+.btn{
+    color: rgb(235, 235, 235);
+    background-color: var(--blue);
+    font-weight: 900;
+    padding: 0.4em 3.5em;
+    border-radius: 4em;
+    font-size: 1rem;
+}
+.btn:hover{
+    background-color: var(--cyan);
+    color: white;
+}
+
+.bg-header{
+    position: absolute;
+    transform: translateY(-100%);
+    z-index: -1;
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+}
+
+/** MAIN **/
+
+main {
+    background-color: var(--darkbg);
+}
+
+.section-link{
+    color: var(--blue);
+    line-height: 2;
+}
+
+/** CARDS & STAY PRODUCTIVE SECTION **/
+.cards-box{
+    background-color: var(--darkintro);
+}
+.card-img{
+    width: 50px;
+    height: 50px;
+}
+.cards-section::before{
+    content: url(/images/bg-quotes.png);
+    position: relative;
+    z-index: 0;
+    left:60px;
+    bottom:17px;
+}
+
+.section-link:hover{
+color: var(--white);
+}
+
+@media (max-width:991px){
+    .cards-section::before{
+       
+        left:10px;
+        bottom:-33px;
+    }
+}
+/** CTA **/
+
+.cta{
+    max-width: 800px;
+    background-color: var(--darkintro);
+    transform: translateY(40%);
+}
+
+.cta-input {
+    font-weight: 900;
+    padding: 0.4em 1em;   
+    border-radius: 4em;
+    font-size: 1rem;
+    border: 0px;
+    color: var(--darkbg);
+}
+
+
+.cta-btn{
+    padding: 0.4em 2.7em;   
+
+}
+@media (min-width:578px){  
+    .cta-input{
+        width: 450px;
+        margin-right: 10px;
+        margin-top:10px;
+        
+    }
+    .cta-btn{
+        margin-top:-4px ;
+        padding: 0.4em 1em;   
+    }
+    .nav-link{
+        margin-right:25px;
+    }
+}
+
+/** FOOTER **/
+.footer-links a{
+    text-decoration: none;
+    margin-right: 30px;
+    line-height: 2;
+    color: inherit;
+}
+
+.footer-links a:hover{
+    color: white;
+}
+
+.social-links a{
+   margin-right: 1.3em;
+   padding: 4px  10px 6px 10px;
+   background-color: inherit;
+  border-radius: 50%;
+  margin-bottom:5px;
+}
+.social-links a:hover{
+    background-color: inherit;
+    color: var(--blue);
+
+}
