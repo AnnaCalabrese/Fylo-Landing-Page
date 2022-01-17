@@ -1,6 +1,9 @@
-# Rock, paper, scissors game
 
-![immagine](https://user-images.githubusercontent.com/81150424/149778569-f3968a6f-3753-403f-b59c-489ff2bacdf8.png)
+
+# Fylo Landing page
+
+![Design preview for the Fylo dark theme landing page challenge](./design/desktop-preview.jpg)
+
 
 ## The challenge
 
@@ -16,22 +19,25 @@ The users should be able to:
 
 ### Links
 I deployed this completed challenge on Netlify:
-- https://game-rps-shoot.netlify.app/
+- https://fylo-landingpg.netlify.app/
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS3
-- Javascript
+- Bootstrap 5
+- Mobile-first workflow
+- Firefox developer tools
 
 
 ### What I learned
-I decided to go through the Odin Project curriculum to improve my javascript skills e the challenge was to build a rock,paper, scissors game so I took inspiration from the frontendmentor.io website for the design and completed it.
+This was a challenging website for me to build and it took me a while but I'm satisfied with the result.
+I specifically wanted to get familiar with Bootstrap 5 and his useful components and will definitely use it again in the future because it helped a lot with making everything perfectly responsive and I had to write fewer media queries. 
 
 ### What should I focus on in the future to improve my skills (how can I become a better programmer)?
-I would like to improve my logical thinking, writing better pseudo code and improve my ability to solve problems.
+I will use Bootstrap again in my next projects (even if I'm also curious about Tailwind too) so that I can get used to it, and in the meantime I also want to focus on using css preprocessors SASS/LESS.
 
 ## Author
 
-- Website - [Anna Calabrese]https://anna-calabrese.netlify.app/
+- Website - [Anna Calabrese](https://annacalabrese.netlify.app/)
 
