@@ -1,7 +1,6 @@
-# Frontend Mentor - Fylo dark theme landing page
+# Rock, paper, scissors game
 
-![Design preview for the Fylo dark theme landing page challenge](./design/desktop-preview.jpg)
-
+![immagine](https://user-images.githubusercontent.com/81150424/149778569-f3968a6f-3753-403f-b59c-489ff2bacdf8.png)
 
 ## The challenge
 
@@ -17,25 +16,22 @@ The users should be able to:
 
 ### Links
 I deployed this completed challenge on Netlify:
-- https://fylo-landingpg.netlify.app/
+- https://game-rps-shoot.netlify.app/
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS3
-- Bootstrap 5
-- Mobile-first workflow
-- Firefox developer tools
+- Javascript
 
 
 ### What I learned
-This was a challenging website for me to build and it took me a while but I'm satisfied with the result.
-I specifically wanted to get familiar with Bootstrap 5 and his useful components and will definitely use it again in the future because it helped a lot with making everything perfectly responsive and I had to write fewer media queries. 
+I decided to go through the Odin Project curriculum to improve my javascript skills e the challenge was to build a rock,paper, scissors game so I took inspiration from the frontendmentor.io website for the design and completed it.
 
 ### What should I focus on in the future to improve my skills (how can I become a better programmer)?
-I will use Bootstrap again in my next projects (even if I'm also curious about Tailwind too) so that I can get used to it, and in the meantime I also want to focus on using css preprocessors SASS/LESS.
+I would like to improve my logical thinking, writing better pseudo code and improve my ability to solve problems.
 
 ## Author
 
-- Website - [Anna Calabrese](https://annacalabrese.netlify.app/)
+- Website - [Anna Calabrese]https://anna-calabrese.netlify.app/
 
