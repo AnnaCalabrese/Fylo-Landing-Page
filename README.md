@@ -39,5 +39,5 @@ I will use Bootstrap again in my next projects (even if I'm also curious about T
 
 ## Author
 
-- Website - [Anna Calabrese](https://annacalabrese.netlify.app/)
+- Website - [Anna Calabrese](https://anna-calabrese.netlify.app/)
 
